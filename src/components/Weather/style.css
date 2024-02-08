@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.main {
+    width: 500px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
+	-webkit-transition: -webkit-transform 300ms ease;
+	transition: -webkit-transform 300ms ease;
+	-o-transition: transform 300ms ease;
+	transition: transform 300ms ease;
+	transition: transform 300ms ease, -webkit-transform 300ms ease;
+	-webkit-transform: translateZ(0) scale(1.02) perspective(1000px);
+	        transform: translateZ(0) scale(1.02) perspective(1000px);
+}
+
+.main:hover {
+    -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
+    transform: scale(1.1) perspective(1500px) rotateY(10deg);
+}
+
+.top {
+    height: 80px;
+    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    background-image: radial-gradient(circle at 16% 47%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 11%,transparent 11%, transparent 56%,transparent 56%, transparent 100%),radial-gradient(circle at 86% 9%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 27%,transparent 27%, transparent 68%,transparent 68%, transparent 100%),radial-gradient(circle at 26% 50%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 32%,transparent 32%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 55% 18%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 44%,transparent 44%, transparent 49%,transparent 49%, transparent 100%),radial-gradient(circle at 42% 50%, hsla(197,0%,52%,0.05) 0%, hsla(197,0%,52%,0.05) 38%,transparent 38%, transparent 55%,transparent 55%, transparent 100%),linear-gradient(90deg, hsl(206,0%,96%),hsl(206,0%,96%));
+    color: #1a1a1a;
+}
+
+.header {
+    color: #fff;
+    margin-top: 10;
+    font-size: 32px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header span {
+    margin-left: -7px;
+}
+
+.location {
+    position: relative;
+    top: -2px;
+}
+
+.day {
+    padding: 15px;
+    color: #1a1a1a;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp {
+    padding: 15px;
+    color: #1a1a1a;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sunrise-sunset {
+    padding: 15px;
+    color: #1a1a1a;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.description {
+    padding: 15px;
+    color: #1a1a1a;
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.refresh-button {
+    width: 35px;
+    height: 35px;
+    margin: 10px 0 !important;
+    color: #fff !important;
+}
